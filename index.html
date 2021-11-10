@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1-rc.2/web3.min.js" integrity="sha512-KURAVUCRxZKDemghhiNqTnYzVPUtO3GYznBZRWRBT2GJJ5PmePAxfO7QMGCM8xUJ0QfrUYJDrtRJM4L4NOtfow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="/app.js"></script>
+    </head>
+    <body>
+        <button onclick="connectToMetamask()">Connect to MetaMask</button>
+        <br><br>
+        <input type="text" name="dataValue" id="dataValue" placeholder="Enter your data" />
+        <button onclick="storeData()">Store</button>
+        <br><br>
+        <button onclick="getData()">Get Value</button>
+    </body>
+</html>
