@@ -1,0 +1,39 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-fe3a3a065ede4893388ac8a09e012ea478621867",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "userSourceNameMap": {
+    "contracts/DataStore.sol": "project/contracts/DataStore.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/DataStore.sol": {
+        "content": "// SPDX-License-Identifier: GPL-3.0\r\n\r\npragma solidity 0.8.28;\r\n\r\n\r\ncontract DataStore {\r\n    string dataValue;\r\n    \r\n    function storeData(string memory messageData) public {\r\n        dataValue = messageData;\r\n    }\r\n    \r\n    function getData() view public returns(string memory outPutMesage) {\r\n        return dataValue;\r\n    } \r\n}"
+      }
+    }
+  }
+}
