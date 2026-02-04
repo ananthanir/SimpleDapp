@@ -25,7 +25,7 @@ export default defineConfig({
       chainType: "l1",
       accounts: {
         mnemonic: "zero boil enrich wasp dad address pause announce artwork dizzy soft vacuum",
-        count: 10,
+        count: 2,
         accountsBalance: 900000n * 10n ** 18n, // 900,000 ETH in wei
       },
     },
