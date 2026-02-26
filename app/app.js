@@ -6,7 +6,7 @@ let account;
 let chain;
 
 // Replace with your deployed contract address
-const contractAddress = "0x52fBee8E482CaFC3E4043C1286ffc0aafbfc1E82";
+const contractAddress = "0xdf849bEbBe3e55C5954123026E7D455e2822a04a";
 
 const contractABI = [
     {

@@ -24,14 +24,15 @@ export default defineConfig({
       type: "edr-simulated",
       chainType: "l1",
       accounts: {
-        mnemonic: "zero boil enrich wasp dad address pause announce artwork dizzy soft vacuum",
+        mnemonic: "slot amount waste sense nothing lawsuit muscle course water mobile candy struggle",
+        path: "m/44'/60'/0'/0",
         count: 2,
         accountsBalance: 900000n * 10n ** 18n, // 900,000 ETH in wei
       },
     },
     localhost: {
       type: "http",
-      url: "http://127.0.0.1:8546",
+      url: "http://127.0.0.1:8545",
     },
   },
 });
